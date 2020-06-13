@@ -40,6 +40,4 @@ CREATE TABLE dept_emp2(
 	FOREIGN KEY (dept_no) REFERENCES departments(dept_no),
 	PRIMARY KEY (emp_no, dept_no));
 
-ALTER TABLE dept_emp 
-ADD COLUMN dept_no VARCHAR;
 
