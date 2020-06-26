@@ -8,7 +8,7 @@ CREATE TABLE employees(
 	emp_no int PRIMARY KEY,
 	emp_title_id VARCHAR,
 	birth_date DATE,
-	first_namke VARCHAR,
+	first_name VARCHAR,
 	last_name VARCHAR,
 	sex VARCHAR,
 	hire_date DATE,
@@ -39,5 +39,3 @@ CREATE TABLE dept_emp2(
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
 	FOREIGN KEY (dept_no) REFERENCES departments(dept_no),
 	PRIMARY KEY (emp_no, dept_no));
-
-

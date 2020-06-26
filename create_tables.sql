@@ -1,3 +1,8 @@
+--one to one
+CREATE TABLE titles(
+	title_id VARCHAR PRIMARY KEY,
+	title VARCHAR)
+	
 --one to many
 CREATE TABLE employees(
 	emp_no int PRIMARY KEY,
@@ -6,15 +11,7 @@ CREATE TABLE employees(
 	first_namke VARCHAR,
 	last_name VARCHAR,
 	sex VARCHAR,
-	hire_date DATE,
-	FOREIGN KEY (emp_title_id)REFERENCES titles(title_id))
-
---one to one
-CREATE TABLE titles(
-	title_id VARCHAR PRIMARY KEY,
-	title VARCHAR)
-	
-
+	hire_date DATE)
 	
 --one to many	
 CREATE TABLE salaries(
