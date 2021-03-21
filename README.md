@@ -1,7 +1,4 @@
-# D3 Challenge
-
-
-## Summary:
+## Project Summary:
 Selects and displays data by joining tables according to table schema using simulated data on employees and customers of a video rental store
 
 ## The Files:
