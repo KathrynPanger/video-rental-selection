@@ -8,5 +8,7 @@ Selects and displays data by joining tables according to table schema using simu
 +--code -> notebook for reading in and analyzing data
 |   +--create_tables.sql -> joins tables according to table schema
 |   +-- run_queries.sql ->runs SQL queries
-
+```
  ![Vizualization Preview](images/chart.PNG)
+
+
