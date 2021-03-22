@@ -1,5 +1,5 @@
 ## Project Summary:
-Selects and displays data by joining tables according to table schema using simulated data on employees and customers of a video rental store
+Selects and displays data by joining tables according to table schema using simulated data on employees and customers of a video rental store. Code joins tables according to depicted table schema below. Target selections reveal idiosyncracies in simulated data.
 
 ## The Files:
 ```
